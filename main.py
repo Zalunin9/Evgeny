@@ -1,6 +1,6 @@
 try:
     f1 = open ('data.txt', 'r')
-    data = ['31, '12, '1900']
+    data1 = ['31', '12', '1900']
     while True:
         data = f1.readLine ().split("-")
         print(data)
@@ -14,4 +14,4 @@ try:
             f1.close()
             print(data1[0], " -", data1[1])
 except IOError:
-    print(IOError.with/traceback())
+    print(IOError.with_traceback())
